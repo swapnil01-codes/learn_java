@@ -13,6 +13,7 @@ class Identifier {
     public static void main(String[] args) {
         int minutesPerHour = 60;
         int m = 60;
+        //int m=20; // Duplicate variable name
         Identifier obj = new Identifier();
         System.out.println("My name is: " + obj.name);
         System.out.println("My age is: " + obj.age);
